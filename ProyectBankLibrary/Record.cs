@@ -19,10 +19,10 @@ namespace ProyectBankLibrary
 
         public Record(int account, string firstName, string lastName, decimal balance)
         {
-            Account = Account;
-            FirstName = FirstName;
-            LastName = LastName;
-            Balance = Balance;
+            Account = account;
+            FirstName = firstName;
+            LastName = lastName;
+            Balance = balance;
         }
     }
 }
