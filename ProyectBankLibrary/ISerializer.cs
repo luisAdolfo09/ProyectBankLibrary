@@ -8,6 +8,7 @@ namespace ProyectBankLibrary
 {
     public interface ISerializer
     {
+        ///
         public void Serialize<T>(T obj, string fileName);
         public T Deserialize<T>(string fileName);
     }
